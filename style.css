@@ -1,0 +1,86 @@
+p {
+  color: orange;
+  width: 300px;
+  text-align: justify;
+  line-height: 45px;
+  font-size: 30px;
+}
+/*
+Межстрочный интервал = line-height - font-size
+Если line-height указан без единиц измерения,
+то его значение будет = line-height * font-size
+*/
+.out-line-height {
+  font-size: 30px;
+  line-height: 1.5;
+}
+h1 {
+  color: green;
+}
+h2 {
+  color: blue;
+  font-style: italic;
+}
+h3 {
+  color: red;
+}
+li {
+  color: rgb(205, 104, 78);
+}
+a {
+  color: #29cc00;
+}
+td {
+  width: 400px;
+  height: 300px;
+}
+
+/*
+Свойство-сокращение font
+
+font: курсив жирность размер_шрифта/межстрочный_интервал семейство
+*/
+/*
+Задача 1
+Сократите код используя свойство-сокращение font:
+p {
+	font-family: "Times New Roman";
+	font-size: 13px;
+	line-height: 20px;
+}
+*/
+p {
+  font:13px/20px "Times New Roman";
+}
+/*
+Задача 2
+ Сократите код, используя свойство-сокращение font:
+p {
+	width: 300px;
+	font-family: Arial;
+	color: red;
+	font-size: 40px;
+	font-weight: bold;
+}
+*/
+.out-line-height {
+  width: 300px;
+  color: red;
+  font:bold 40px "Arial" ;
+}
+/*
+Задача 3
+ Сократите код, используя свойство-сокращение font:
+p {
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: bold;
+	text-indent: 50px;
+	font-style: italic;
+	line-height: 60px;
+}
+*/
+.task-3 {
+  text-indent: 50px;
+  font:bold italic 40px/60px "Arial";
+}

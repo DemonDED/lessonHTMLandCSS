@@ -1,0 +1,31 @@
+/*
+Красная строка - text-indent
+*/
+p {
+  text-indent: 50px;
+  text-align: justify;
+  width: 400px;
+}
+/*
+Эффекты текста - text-decoration
+значения:
+1) underline
+2) overline
+3) line-through
+4) none
+*/
+.underline {
+  text-decoration: underline;
+}
+.line-through {
+  color: green;
+  text-decoration: line-through;
+}
+.overline {
+  color: red;
+  text-decoration: overline;
+}
+.none {
+  color: red;
+  text-decoration: none;
+}
