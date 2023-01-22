@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="line_height.css">
+  <meta charset="UTF-8">
+  <title>Межстрочный интервал на CSS</title>
+</head>
+<body>
+  <h2>
+    При использовании свойства line-height вас может ожидать некоторый подвох: это свойство не задает промежуток между строками текста, как могло бы показаться, а задает высоту линии текста.
+    Это значит, что реальный видимый промежуток между строками будет вычисляться так: line-height - font-size = видимое расстояние между строками текста.
+    Например расстояние между строками текста будет 50px - 20px = 30px
+  </h2>
+  <p class="num1">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elitorire aenean a dapibus magna, ac interdum nisl.
+    Suspendisse egetil fringilla nibh, eu commodo arcu.
+    Donec lacinia tempor velite sed tincidunt.
+    Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed.
+    Phasellus sodales, lorem vel cursus vehi ante purus lacini dui, interdum fringilla massa eros ut duir. 
+  </p>
+
+  <h2>
+    Значением свойства line-height не обязательно должно служить число в некоторых единицах. Можно также просто написать число или дробь. В этом случае настоящее значение line-height можно будет найти, умножив его на значение font-size.
+
+    К примеру, font-size равен 10px, а line-height - 1.5. В этом случае реальное значение line-height будет 10px * 1.5 = 15px.
+    Ну, а видимый белый промежуток между линиями текста будет 5px: 15px - 10px = 5px. 
+  </h2>
+  <p class="num2">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elitorire aenean a dapibus magna, ac interdum nisl.
+    Suspendisse egetil fringilla nibh, eu commodo arcu.
+    Donec lacinia tempor velite sed tincidunt.
+    Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed.
+    Phasellus sodales, lorem vel cursus vehi ante purus lacini dui, interdum fringilla massa eros ut duir. 
+  </p>
+  
+  <a href="../../index.html">На главную</a>
+</body>
+</html>

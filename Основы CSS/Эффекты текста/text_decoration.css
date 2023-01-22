@@ -1,0 +1,19 @@
+.num1 {
+  text-decoration: overline;
+  color: red;
+}
+.num2 {
+  text-decoration: line-through;
+  color: green;
+}
+.num3 {
+  text-decoration: underline;
+  font: 18px Arial;
+}
+.num4 {
+  font: 20px/35px "Times New Roman";
+}
+.num4 > a {
+  text-decoration: none;
+  color: red;
+}

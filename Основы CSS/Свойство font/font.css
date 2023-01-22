@@ -1,0 +1,38 @@
+/*
+.num1 {
+	font-family: "Times New Roman";
+	font-size: 13px;
+	line-height: 20px;
+}
+*/
+.num1 {
+  font: 13px/20px "Times New Roman";
+}
+/*
+.num2 {
+	width: 300px;
+	font-family: Arial;
+	color: red;
+	font-size: 40px;
+	font-weight: bold;
+}
+*/
+.num2 {
+  width: 300px;
+  font: bold 40px Arial;
+  color: red;
+}
+/*
+.num3  {
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: bold;
+	text-indent: 50px;
+	font-style: italic;
+	line-height: 60px;
+}
+*/
+.num3 {
+  text-indent: 50px;
+  font: italic bold 40px/60px Arial;
+}
