@@ -1,0 +1,12 @@
+ul li {
+  color: red;
+}
+ol li {
+  color: green;
+}
+ul li i {
+  color: blue;
+}
+p i {
+  color: burlywood;
+}

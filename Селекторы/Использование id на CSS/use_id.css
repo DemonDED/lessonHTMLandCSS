@@ -1,0 +1,24 @@
+#block1 h2 {
+  color: red;
+}
+#block1 p {
+  color: green;
+}
+#block2 .header {
+  color: red;
+}
+#block2 h2.header {
+  color: green;
+}
+#elem1 h2 {
+  color: blue;
+}
+#elem2 .text {
+  color: blue;
+}
+#elem3>.text {
+  color: blue;
+}
+#elem4 ul>.text {
+  color: blue;
+}

@@ -1,0 +1,44 @@
+/*
+.xxx {
+  color: red;
+}
+.yyy {
+  color: red;
+}
+*/
+.xxx, .yyy {
+  color: red;
+  font: 20px Arial;
+}
+/* .eee {
+	font-size: 20px;
+	line-height: 1.5;
+	font-family: Arial;
+}
+.zzz {
+	font-size: 30px;
+	line-height: 1.5;
+	font-family: Arial;
+} */
+.eee, .zzz {
+  font: 30px/1.5 Arial;
+}
+/* .eee {
+	font-size: 20px;
+	text-align: center;
+	font-family: Arial;
+}
+.zzz {
+	font-size: 30px;
+	text-align: center;
+	font-family: Arial;
+}
+.ggg {
+	font-size: 35px;
+	text-align: center;
+	font-family: Arial;
+} */
+.eee, .zzz, .ggg {
+  font: 30px Arial;
+  text-align: center;
+}

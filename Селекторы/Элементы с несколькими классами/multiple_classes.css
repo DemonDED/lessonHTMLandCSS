@@ -1,0 +1,22 @@
+.error {
+  color: red;
+}
+.large {
+  font: 30px Arial;
+}
+.small {
+	font-size: 20px;
+}
+.success {
+	color: green;
+}
+.one_class {
+  font: italic 20px/1.5 "Courier New";
+}
+.two_class {
+  color: blue;
+  text-align: center;
+}
+.three_class {
+  text-decoration: underline;
+}

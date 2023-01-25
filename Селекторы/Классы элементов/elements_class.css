@@ -1,0 +1,12 @@
+.test_class {
+  font: bold 30px/45px Arial;
+}
+.odd {
+  color: red;
+}
+.eve {
+  color: green;
+}
+.eee {
+  color: blue;
+}
