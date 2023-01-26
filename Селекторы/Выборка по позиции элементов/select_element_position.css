@@ -1,0 +1,40 @@
+.task1 li:first-child {
+  color: red;
+}
+.task2 li:last-child {
+  color: green;
+}
+.task3 li:first-child {
+  color: red;
+}
+.task3 li:last-child {
+  color: green;
+}
+.task1_1 li:nth-child(3) {
+  color: red;
+}
+.task2_1 li:nth-child(odd) {
+  color: red;
+}
+.task2_1 li:nth-child(even) {
+  color: green;
+}
+.task3_1 li:nth-child(3n) {
+  color: red;
+}
+.task1_2 li:nth-last-child(2) {
+  color: red;
+}
+.task1_3 li:only-child {
+  color: red;
+}
+.task1_4 li{
+  width: 100px;
+  margin: 10px;
+}
+.task1_4 li:empty {
+  border: 1px solid blue;
+}
+.task1_4 li:nth-child(n + 1):nth-child(-n + 3) {
+  border: 1px solid red;
+}

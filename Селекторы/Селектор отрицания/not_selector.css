@@ -1,0 +1,9 @@
+.task1 li:not(.elem) {
+  color: red;
+}
+.task2 li:not(:first-child) {
+  color: green;
+}
+.task3 li:not(:first-child, :last-child) {
+  color: blue;
+}

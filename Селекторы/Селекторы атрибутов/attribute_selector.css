@@ -1,0 +1,28 @@
+ul li {
+  font: 15px/2.5 Arial;
+}
+[title] {
+  color: red;
+}
+p[title] {
+  color: blue;
+}
+p[title = 'привет'] {
+  font: 20px Arial;
+  color: chocolate;
+}
+a[href^='http://'] {
+  text-decoration: overline;
+  font: italic 20px/2 Arial;
+}
+a[href$='.html'] {
+  text-decoration: underline;
+  font: bold 20px/2 Verdana;
+  color: brown;
+}
+p[title*='привет'] {
+  font-size: 25px;
+}
+p[class^='top-'] {
+  color: darkgreen;
+}

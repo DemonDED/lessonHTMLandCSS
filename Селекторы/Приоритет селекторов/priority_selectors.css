@@ -1,0 +1,32 @@
+#property_conflict {
+  color: red;
+}
+#property_conflict {
+  color: blue;
+}
+p {
+  color: red;
+}
+.rule1 {
+  color: blue;
+}
+.rule2 {
+  color: blue;
+}
+#rule2 {
+  color: brown;
+}
+.zzz {
+  color: aqua;
+  font: 30px Impact;
+}
+.zzz.bbb {
+  color: green;
+  font: 20px Arial;
+}
+#father_div {
+  color: red;
+}
+.son_p {
+  color: chocolate;
+}

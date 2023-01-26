@@ -1,0 +1,26 @@
+a {
+  color: red;
+  font: 20px/3 Arial;
+}
+a:hover {
+  text-decoration: none;
+}
+a.zz {
+  color: blue;
+  text-decoration: none;
+}
+a.zz:hover {
+  text-decoration: underline;
+}
+#block a.zzz {
+  color: chocolate;
+}
+#block a.zzz:hover {
+  text-decoration: overline;
+}
+.block a.zzz {
+  color: rgb(62, 218, 0);
+}
+.block a.zzz:hover {
+  font: 30px Verdana;
+}
