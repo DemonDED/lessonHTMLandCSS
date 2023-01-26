@@ -1,0 +1,35 @@
+.bbb.zzz {
+  color: red;
+}
+h2.bbb.zzz {
+  font: 20px/2 Arial;
+  color: blue;
+}
+#elem.bbb {
+  font: 20px Arial;
+}
+#elem.bbb.zzz {
+  font: 30px Impact;
+  color: cadetblue;
+}
+h2#elem.bbb {
+	color: red;
+}
+h2.zzz {
+	color: rgb(57, 155, 0);
+}
+h2 .zzz {
+  font: italic 20px/1.5 Impact;
+	color: red;
+}
+.bbb .zzz {
+	color: red;
+}
+.bbb.zzz.xxx {
+  font: 30px Arial;
+	color: rgb(238, 0, 159);
+}
+.bbb .zzz.xxx {
+	font: italic bold 30px/1.5 "Comic Sans MS";
+  color: chocolate;
+}
