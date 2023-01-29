@@ -1,0 +1,29 @@
+#theory {
+  font: 30px/2 Arial;
+}
+.task1, .task2, .task3, .task4, .task5 {
+  width: 300px;
+  height: 200px;
+  border-width: 7px;
+  margin-bottom: 10px;
+}
+.task1 {
+  border-color: blue;
+  border-style: solid;
+}
+.task2 {
+  border-color: red;
+  border-style: dotted;
+}
+.task3 {
+  border-color: orange;
+  border-style: dashed;
+}
+.task4 {
+  border-color: blue;
+  border-style: double;
+}
+.task5 {
+  border-color: crimson;
+  border-style: ridge;
+}

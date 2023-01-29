@@ -1,0 +1,17 @@
+.task1, .task2, .task3 {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.task1 {
+  border-radius: 10px;
+  border: 2px solid green;
+}
+.task2 {
+  border-radius: 10px;
+  background-color: green;
+}
+.task3 {
+  border: 2px solid green;
+  border-radius: 100px;
+}

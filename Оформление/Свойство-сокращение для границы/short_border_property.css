@@ -1,0 +1,22 @@
+#theory {
+  width: 700px;
+  font: 30px/2 Arial;
+  text-align: justify;
+}
+.tasks * {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.task1 {
+  border: 2px solid red;
+}
+.task2 {
+  border: 2px dotted blue;
+}
+.task3 {
+  border: 2px dashed green;
+}
+.task4 {
+  border: 2px double orange;
+}

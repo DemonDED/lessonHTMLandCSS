@@ -1,0 +1,13 @@
+body {
+  background-image: url('bg.png');
+  background-repeat: repeat-x;
+}
+h2 > span {
+  font: bold 30px "Times New Roman";
+  color: rgb(146, 0, 0);
+}
+td, th {
+  width: 300px;
+  height: 70px;
+  text-align: center;
+}

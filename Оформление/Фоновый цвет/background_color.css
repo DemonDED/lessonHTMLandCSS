@@ -1,0 +1,19 @@
+#elem {
+  background-color: orange;
+  color: white;
+  width: 300px;
+  height: 100px;
+}
+.task1 {
+  width: 200px;
+  height: 200px;
+  background-color: #7e89eb;
+}
+.task2 {
+  width: 300px;
+  height: 200px;
+  background-color: #4dee99;
+  color: white;
+  text-align: center;
+  font: 30px Arial;
+}
