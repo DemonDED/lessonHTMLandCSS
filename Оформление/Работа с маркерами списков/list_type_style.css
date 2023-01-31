@@ -1,0 +1,30 @@
+.task1 {
+  list-style-type: square;
+}
+.task2 {
+  list-style-type: disc;
+}
+.task3 {
+  list-style-type: circle;
+}
+.task4 {
+  list-style-type: none;
+}
+.task5 {
+  list-style-type: lower-roman;
+}
+.task6 {
+  list-style-type: upper-roman;
+}
+.task7 {
+  list-style-type: lower-alpha;
+}
+.task8 {
+  list-style-type: upper-alpha;
+}
+.task9 {
+  list-style-type: lower-greek;
+}
+.task10 {
+  list-style-type: decimal-leading-zero;
+}

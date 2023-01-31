@@ -1,0 +1,9 @@
+body{
+  background: url('bg.png') round center center/auto fixed border-box;
+}
+p {
+  width: 500px;
+  font: italic bold 30px/3 Arial;
+  text-indent: 3em;
+  text-align: justify;
+}
