@@ -1,0 +1,48 @@
+.block_without_father {
+  width: 200px;
+  height: 100px;
+  margin: 0px auto;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+.father_for_block {
+  width: 500px;
+  border: 1px solid blue;
+}
+.father_for_block .block_child:nth-child(1n) {
+  width: 250px;
+  height: 100px;
+  border: 1px dotted green;
+  margin: 0px auto 0px 30px;
+}
+.father_for_block .block_child:nth-child(2n) {
+  width: 250px;
+  height: 100px;
+  border: 1px dashed red;
+  margin: 0px 30px 0px auto;
+}
+.father_for_inline {
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  border: 1px solid red;
+}
+.father_for_inline span {
+  border: 1px solid black;
+}
+.parent {
+  width: 300px;
+  height: 200px;
+  text-align: right;
+  border: 1px solid chocolate;
+  padding: 0px 10px 0px 0px;
+  box-sizing: border-box;
+}
+.parent2 {
+  text-align: center;
+  border: 1px solid green;
+}
+.parent2 .child {
+  display: inline-block;
+  margin: 0px 5px;
+}

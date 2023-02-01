@@ -1,0 +1,42 @@
+.parent {
+  display: flex;
+  width: 900px;
+  border: 1px solid red;
+}
+.parent:nth-of-type(1) {
+  height: 400px;
+}
+.parent:nth-of-type(3) {
+  width: auto;
+}
+.parent:nth-of-type(4) {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+}
+.parent:nth-of-type(5) {
+  padding: 10px;
+}
+.parent:nth-of-type(6) div {
+  margin: 10px;
+}
+.parent:nth-of-type(n + 7):nth-of-type(-n + 10) {
+  height: 250px;
+}
+.parent:nth-of-type(7) {
+  justify-content: center;
+}
+.parent:nth-of-type(8) {
+  justify-content: space-around;
+}
+.parent:nth-of-type(9) {
+  justify-content: space-between;
+}
+.parent:nth-of-type(10) {
+  justify-content: space-evenly;
+}
+.parent div {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}

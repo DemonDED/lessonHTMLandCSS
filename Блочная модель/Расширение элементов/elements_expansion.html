@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="elements_expansion.css">
+  <meta charset="UTF-8">
+  <title>Расширение элементов</title>
+</head>
+<body>
+  
+  <h2>
+    Дело в том, что добавление padding расширяет элемент и он становится больше, чем указано в свойстве width.
+    Как правило, описанное расширение вредное и вам хотелось бы от него избавиться.
+    <br>
+    Для этого в CSS есть свойство box-sizing.
+    Если указать ему значение border-box, то ни padding, ни граница не будут расширять блок.
+  </h2>
+
+  <h2>Пример без box-sizing:</h2>
+
+  <div class="task1-1">Тег div с заданным размером</div>
+  <div class="task1-2">Тег div с установленной границей</div>
+  <div class="task1-3">Тег div с заданным padding</div>
+
+  <h2>Пример с box-sizing:</h2>
+
+  <div class="task2-1">Тег div с заданным размером</div>
+  <div class="task2-2">Тег div с установленной границей</div>
+  <div class="task2-3">Тег div с заданным padding</div>
+
+  <a href="../../index.html">На главную</a>
+</body>
+</html>

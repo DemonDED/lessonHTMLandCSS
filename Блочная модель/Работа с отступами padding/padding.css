@@ -1,0 +1,41 @@
+.task1 {
+  width: 200px;
+  padding: 40px;
+  border: 1px solid red;
+}
+.task2 {
+  width: 600px;
+  border: 1px solid green;
+  padding: 20px;
+  margin: 0px 0px 40px 0px;
+}
+.task3 {
+  width: 300px;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 0px 0px 0px 40px;
+}
+.task4 {
+  width: 200px;
+  border: 1px dashed red;
+  padding-left: 30px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+  text-align: justify;
+}
+.task5, .task6, .task7 {
+  border: 1px solid red;
+}
+.task5 {
+  width: 300px;
+  padding: 10px 20px 30px 40px;
+}
+.task6 {
+  width: 300px;
+  padding: 60px 30px;
+}
+.task7 {
+  width: 300px;
+  padding: 10px 30px 40px;
+}

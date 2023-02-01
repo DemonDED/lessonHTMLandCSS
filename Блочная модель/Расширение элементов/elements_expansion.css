@@ -1,0 +1,23 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  margin: 20px;
+  text-align: center;
+  
+}
+.task1-2 {
+  border: 7px dashed red;
+}
+.task1-3 {
+  padding: 20px;
+}
+.task2-2, .task2-3 {
+  box-sizing: border-box;
+}
+.task2-2 {
+  border: 7px dashed blue;
+}
+.task2-3 {
+  padding: 20px;
+}

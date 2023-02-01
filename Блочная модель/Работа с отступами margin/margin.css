@@ -1,0 +1,79 @@
+.task1-1, .task2-1 {
+  border: 1px dashed blue;
+}
+
+.task1-1 {
+  width: 200px;
+}
+.task1-2 {
+  height: 100px;
+  border: 1px solid orange;
+  margin: 25px;
+}
+.task2-1 {
+  width: 400px;
+}
+.task2-2 {
+  border: 1px dashed green;
+  margin: 25px;
+}
+.task2-3 {
+  height: 200px;
+  border: 1px solid red;
+  margin: 25px;
+}
+
+.task3-1, .task4-1, .task5-1 {
+  width: 400px;
+  border: 1px solid red;
+}
+.task3-2, .task4-2, .task5-2 {
+  height: 200px;
+  border: 1px solid green;
+}
+
+.task3-2 {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 90px;
+  margin-bottom: 180px;
+}
+.task4-2 {
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.task5-2 {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.task6-1 {
+  width: 400px;
+  border: 1px solid orange;
+}
+.task6-2 {
+  height: 100px;
+  margin: 40px 90px 160px 20px;
+  border: 1px dashed blue;
+}
+.task7-1 {
+  width: 400px;
+  border: 1px solid red;
+}
+.task7-2 {
+  height: 200px;
+  border: 1px solid green;
+  margin: 80px 20px;
+}
+.task8-1 {
+  width: 700px;
+  border: 1px dotted blue;
+}
+.task8-2 {
+  height: 100px;
+  border: 1px solid chocolate;
+  margin: 40px 80px 100px;
+}

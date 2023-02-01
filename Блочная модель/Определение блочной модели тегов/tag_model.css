@@ -1,0 +1,6 @@
+div p, div h2, div h3 {
+  border: 1px solid red;
+}
+div b, div i, div a {
+  border: 1px solid blue;
+}
