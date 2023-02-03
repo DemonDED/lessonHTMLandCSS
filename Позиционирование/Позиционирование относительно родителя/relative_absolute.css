@@ -1,0 +1,96 @@
+.task1, .task2, .task3, .task4 {
+  position: relative;
+  margin: 0px auto;
+}
+.task1 > *, .task2 > *, .task3 > *, .task4 > *{
+  position: absolute;
+}
+
+.task1 {
+  border: 1px solid green;
+  width: 500px;
+  height: 300px;
+}
+.task1 > div {
+  top: 80px;
+  left: 80px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
+.task2 {
+  width: 500px;
+  height: 400px;
+  background-color: rgb(57, 255, 57);
+}
+.task2 div {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+.task2 div:nth-of-type(1) {
+  left: 40px;
+  top: 40px;
+}
+.task2 div:nth-of-type(2) {
+  right: 40px;
+  bottom: 40px;
+}
+.task3 {
+  width: 200px;
+  height: 500px;
+  border: 1px solid black;
+}
+.task3 > div {
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.task3 div:nth-of-type(1) {
+  background-color: red;
+  left: 20%;
+  top: 9%;
+}
+.task3 div:nth-of-type(2) {
+  background-color: yellow;
+  left: 20%;
+  top: 37%;
+}
+.task3 div:nth-of-type(3) {
+  background-color: green;
+  left: 20%;
+  top: 65%;
+}
+.task4 {
+  background-color: greenyellow;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+}
+.task4 > div {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+.task4  div:nth-last-of-type(1) {
+  border-radius: 50%;
+  left: 120px;
+  top: 90px;
+}
+.task4  div:nth-last-of-type(2) {
+  border-radius: 50%;
+  left: 320px;
+  top: 90px;
+}
+.task4  div:nth-last-of-type(3) {
+  left: 220px;
+  top: 220px;
+}
+.task4  div:nth-last-of-type(4) {
+  border-radius: 50%;
+  width: 320px;
+  height: 50px;
+  left: 150px;
+  top: 390px;
+}

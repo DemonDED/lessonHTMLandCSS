@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #C4CD14;
+  color: white;
+  border-bottom: 1px solid #A3AA11;
+  box-sizing: border-box;
+  font: 21px/51px Arial;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 600px;
+  margin: 60px auto;
+  border: 1px solid #C4CD14;
+}
