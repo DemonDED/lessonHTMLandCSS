@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="margin_padding_with_float.css">
+  <meta charset="UTF-8">
+  <title>Отступы вместе с float</title>
+</head>
+<body>
+  
+  <h2>
+    В случае попытки добавить свойства margin и padding, элементам
+    которые мы хотим отодвинуть от элемента со свойством float,
+    на деле они будут отступать от родительского элемента, т.к.
+    элемент с float исключен из нормального потока.
+  </h2>
+
+  <h2>Пример:</h2>
+
+  <div>
+    <img src="../../images/smile.png" alt="">
+    <p>Какой-то текст Какой-то текст Какой-то текст Какой-то текст Какой-то </p>
+    <p>Какой-то текстКакой-то текстКакой-то текстКакой-то текстКакой-то текст</p>
+  </div>
+
+  <h2>
+    Если добавить отступы плавающему элементу, то обтекаемый
+    контент отодвинется именно от него на заданное расстояние.
+
+    Интересного эффекта можно добиться если совместить присвоение
+    для плавающего элемента и для обтекаемого контента.
+  </h2>
+
+  <h2>Пример:</h2>
+
+  <div>
+    <img src="../../images/smile.png" alt="">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elitorire. Aenean a dapibus magna, ac interdum nisl. Suspendisse egetil fringilla nibh, eu commodo arcu. Donec lacinia tempor velite sed tincidunt. Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi ante purus lacini dui, interdum fringilla massa eros ut duir. 
+    <img src="../../images/smile.png" alt="">
+    ullam et ipsum ex. Donec ut iaculis massa. Duis vel ulamcor per dolor. Suspendisse tristique dolor risus, nec laoreet du aliquet maximus. Maecenas tempus congue arcu, si amet auctor dui efficitur in. Proin ac auctor nisi. Phasellus luctus eur neque sollicitudin rutrum. Curabitur ipsum justo, sodales in lectus non, molestie ullamcorper elit, orciro varius natoque. Lorem ipsum dolor sit amet, consectetur adipiscing elitorire. Aenean a dapibus magna, ac interdum nisl. Suspendisse egetil fringilla nibh, eu commodo arcu. Donec lacinia tempor velite sed tincidunt. Aliquam porttitor nulla purus, vel vulputater ipsum faucibus sed. Phasellus sodales, lorem vel cursus vehi ante purus lacini dui, interdum fringilla massa eros ut duir. 
+  </div>
+
+  <a href="../../index.html">На главную</a>
+</body>
+</html>

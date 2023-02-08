@@ -1,0 +1,13 @@
+div, .task1 {
+  width: 400px;
+  text-align: justify;
+}
+img {
+  float: right;
+}
+.task1 img:nth-of-type(1) {
+  float: left;
+}
+.task1 img:nth-of-type(2) {
+  float: right;
+}

@@ -1,0 +1,14 @@
+h2 {
+  width: 900px;
+  font: 25px/3 Arial;
+}
+.parent {
+  width: 400px;
+  border: 1px solid red;
+}
+div * {
+  border: 1px solid green;
+}
+.clearfix {
+  clear: both;
+}

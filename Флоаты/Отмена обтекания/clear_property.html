@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="clear_property.css">
+  <meta charset="UTF-8">
+  <title>Отмена обтекания</title>
+</head>
+<body>
+  
+  <h2>
+    Для решения проблемы с налезанием на другой блок  элемента
+    со свойством float используется свойство clear для элемента стоящего ниже.
+  </h2>
+
+  <div class="parent">
+    <p>Какой-то текст тега p. Какой-то текст тега p, какой-то текст тега p.</p>
+    <img src="../../images/smile.png" alt="">
+    <div class="clearfix"></div>
+    <p>Какой-то текст тега p. Какой-то текст тега p, какой-то текст тега p.</p>
+  </div>
+
+  <h2>Так как диву-клиарфиксу задано свойство clear, то получится, что он будет отпихиваться картинкой вниз и стоять под ней, расширяя при этом родителя по высоте.</h2>
+
+  <div class="parent">
+    <img src="../../images/smile.png" alt="">
+    <div class="clearfix"></div>
+  </div>
+
+  <a href="../../index.html">На главную</a>
+</body>
+</html>
