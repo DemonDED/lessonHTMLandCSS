@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #484848;
+}
+#menu a {
+  margin: 0px 5px;
+  padding: 15px 45px;
+  color: white;
+  background-color: #484848;
+  text-decoration: none;
+}
+#menu .active, #menu a:hover {
+  color: #484848;
+  background-color: white;
+}
+#main-heading {
+  padding: 0;
+  margin: 0px 0px 10px 0px;
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font: 18px/1.3 Arial;
+  width: 50%;
+  padding: 0px 30px 20px;
+  align-items: center;
+}
