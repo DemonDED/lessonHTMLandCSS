@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="stylesheet" href="working_with_pointers.css">
+  <meta charset="UTF-8">
+  <title>Работа с указателями</title>
+</head>
+<body>
+  <h2>Свойство user-select - управляет поведением выделения элементов на странице.</h2>
+  <ol>
+    <li>none - текст не выделяется</li>
+    <li>contain - выделение в пределах элемента</li>
+    <li>all - все содержимое родителя с этим значением</li>
+    <li>auto - вычисляемое значение, автоматически определяется следующим образом: для псевдоэлементов after и before значение равно none, для редактируемого элемента значение равно contain, если у родителя элемента значение all или none - такое же будет и у самого элемента, иначе значение будет text. </li>
+    <li>text - пользователь может выделить текст в элементе.</li>
+  </ol>
+  <pre>
+    <span>1.</span>Выведите на экран какой-нибудь код так, чтобы переносы и отступы в нем стояли так, как это сделано в редакторе кода. 
+
+    <span>2.</span>Модифицируйте предыдущую задачу так, чтобы слева возле каждого ряда кода стоял номер этого ряда. 
+
+    <span>3.</span>Модифицируйте предыдущую задачу так, чтобы при выделении и копировании кода номера рядов не копировались. 
+  </pre>
+
+  <h2>Свойство pointer-events - позволяет убрать реакцию элемента на события мыши.</h2>
+  <button>Сделайте кнопку которая не будет реагировать на нажатие</button>
+
+  <h2>Свойство cursor - устанавливает внешний вид курсора при наведении.</h2>
+  <a href="" class="task3">
+    Сделайте ссылку, которая не будет реагировать на наведение и нажатие.
+    <br>
+    Модифицируйте предыдущую задачу так, чтобы при наведении на ссылку курсор менял свой вид на запрещенный. 
+  </a>
+
+  <h2>Псевдоэлемент ::selection - позволяет задать цвет и фон выделяемому тексту.</h2>
+  <div class="selection">
+    <p>It was on the corner of the street that he noticed the first sign of something peculiar a cat reading a map. For a second, Mr. Dursley didn’t realize what he had seen then he jerked his head around to look again. There was a tabby cat standing on the corner of Privet Drive, but there wasn’t a map in sight. What could he have been thinking of? </p>
+    <p> Mr. Dursley blinked and stared at the cat. It stared back. As Mr. Dursley drove around the corner and up the road, he watched the cat in his mirror. It was now reading the sign that said Privet Drive — no, looking at the sign; cats couldn’t read maps or signs. Mr. Dursley gave himself a little shake and put the cat out of his mind. As he drove toward town he thought of nothing except a large order of drills he was hoping to get that day. </p>
+  </div>
+
+  <a href="../../index.html">На главную</a>
+</body>
+</html>

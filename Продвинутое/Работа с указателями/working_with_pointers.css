@@ -1,0 +1,21 @@
+pre span {
+  user-select: none;
+}
+button {
+  display: block;
+  pointer-events: none;
+}
+.task3 {
+  display: block;
+  pointer-events: auto;
+  cursor: not-allowed;
+}
+.selection {
+  width: 400px;
+  margin: 0 auto;
+  text-align: justify;
+}
+.selection p::selection {
+  color: white;
+  background-color: green;
+}

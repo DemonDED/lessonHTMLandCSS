@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="table_prop.css">
+  <title>Работа с таблицами</title>
+</head>
+<body>
+  <h2>Свойсвто border-collapse - заставляет двойные границы таблицы и ячеек схлопнуться.</h2>
+  <ul>
+    <li>collapse - двойные границы будут выглядеть как одна. Свойство border-spacing и атрибут cellspacing не будут работать.</li>
+    <li>separate - каждая ячейка будет иметь свою границу (по умолчанию).</li>
+  </ul>
+
+  <table class="table task1">
+    <tr>
+      <td>cell 1</td>
+      <td>cell 2</td>
+      <td>cell 3</td>
+    </tr>
+    <tr>
+      <td>cell 4</td>
+      <td>cell 5</td>
+      <td>cell 6</td>
+    </tr>
+    <tr>
+      <td>cell 7</td>
+      <td>cell 8</td>
+      <td>cell 9</td>
+    </tr>
+  </table>
+
+  <h2>Свойство border-spacing - задает отступ между ячейками таблицы.</h2>
+  <ul>
+    <li>Одно значение - по вертикали и по горизонтали</li>
+    <li>Два значения - первое по горизонтали, второе по вертикали</li>
+  </ul>
+
+  <table class="table task2">
+    <tr>
+      <td>cell 1</td>
+      <td>cell 2</td>
+      <td>cell 3</td>
+    </tr>
+    <tr>
+      <td>cell 4</td>
+      <td>cell 5</td>
+      <td>cell 6</td>
+    </tr>
+    <tr>
+      <td>cell 7</td>
+      <td>cell 8</td>
+      <td>cell 9</td>
+    </tr>
+  </table>
+  <table class="table task3">
+    <tr>
+      <td>cell 1</td>
+      <td>cell 2</td>
+      <td>cell 3</td>
+    </tr>
+    <tr>
+      <td>cell 4</td>
+      <td>cell 5</td>
+      <td>cell 6</td>
+    </tr>
+    <tr>
+      <td>cell 7</td>
+      <td>cell 8</td>
+      <td>cell 9</td>
+    </tr>
+  </table>
+  <table class="table task4">
+    <tr>
+      <td>cell 1</td>
+      <td>cell 2</td>
+      <td>cell 3</td>
+    </tr>
+    <tr>
+      <td>cell 4</td>
+      <td>cell 5</td>
+      <td>cell 6</td>
+    </tr>
+    <tr>
+      <td>cell 7</td>
+      <td>cell 8</td>
+      <td>cell 9</td>
+    </tr>
+  </table>
+
+  <h2> Свойство empty-cells - указывает браузеру как отображать пустые ячейки таблицы.</h2>
+  <ul>
+    <li>show - фон и граница показаны</li>
+    <li>hide - фон и граница скрыты</li>
+  </ul>
+  
+  <table class="table task5">
+    <tr>
+      <td>cell 1</td>
+      <td></td>
+      <td>cell 3</td>
+    </tr>
+    <tr>
+      <td>cell 4</td>
+      <td>cell 5</td>
+      <td>cell 6</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>cell 8</td>
+      <td></td>
+    </tr>
+  </table>
+
+  <a href="../../index.html">На главную</a>
+</body>
+</html>

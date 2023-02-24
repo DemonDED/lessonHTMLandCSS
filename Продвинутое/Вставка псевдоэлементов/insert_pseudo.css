@@ -1,0 +1,23 @@
+div p span::after {
+  content: ' ';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+}
+ul li::after {
+  content: '.';
+}
+body {
+  counter-reset: test;
+}
+body h2::before {
+  counter-increment: test;
+  content: '№' counter(test) " ";
+}
+a:hover::after {
+  display: block;
+  position: relative;
+  content:'Адрес данной ссылки: ''"'attr(href)'"';
+  bottom: 40px;
+}

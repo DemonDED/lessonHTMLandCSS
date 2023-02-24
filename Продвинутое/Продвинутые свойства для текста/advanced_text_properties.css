@@ -1,0 +1,36 @@
+div .letter.task:nth-of-type(1) {
+  letter-spacing: 1px;
+}
+div .letter.task:nth-of-type(2) {
+  letter-spacing: 3px;
+}
+div .letter.task:nth-of-type(3) {
+  letter-spacing: -1px;
+}
+div .word.task:nth-of-type(1) {
+  word-spacing: 3px;
+}
+div .word.task:nth-of-type(2) {
+  word-spacing: 0px;
+}
+div .text-transform:nth-of-type(1) {
+  text-transform: uppercase;
+}
+div .text-transform:nth-of-type(2) {
+  text-transform: capitalize;
+}
+.variant.task {
+  font-variant:small-caps;
+}
+div:nth-of-type(5), div:nth-of-type(6) {
+  margin: 0 auto;
+  width: 80%;
+}
+.first-letter::first-letter {
+  color: red;
+  font: 30px "Times New Roman";
+}
+.first-line::first-line {
+  color: red;
+  font-style: italic;
+}

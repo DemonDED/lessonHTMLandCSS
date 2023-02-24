@@ -1,0 +1,29 @@
+table {
+  color: white;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+table td {
+  border: 1px solid black;
+  background-color: #00A876;
+  padding: 10px 10px;
+}
+.table.task1 {
+  border-collapse: collapse;
+}
+.table.task1 td {
+  padding: 10px 10px;
+}
+.table.task2 {
+  border-spacing: 10px;
+}
+.table.task3 {
+  border-spacing: 25px 15px;
+}
+.table.task4 {
+  border-spacing: 15px 25px;
+}
+.table.task5 {
+  border-spacing: 30px 15px;
+  empty-cells: hide;
+}

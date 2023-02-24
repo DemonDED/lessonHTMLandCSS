@@ -1,0 +1,17 @@
+div {
+  margin-bottom: 20px;
+}
+.task1 {
+  width: 80%;
+  columns: 300px 2;
+}
+.task2 {
+  width: 1000px;
+  columns: auto 4;
+  column-rule: 1px dashed gray;
+  column-gap: 30px;
+}
+.task2 h2 {
+  text-align: center;
+  column-span: all;
+}

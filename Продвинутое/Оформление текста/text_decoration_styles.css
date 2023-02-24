@@ -1,0 +1,16 @@
+div p {
+  text-decoration-line: underline;
+  text-decoration-color: red;
+}
+div p:nth-child(1) {
+  text-decoration-style: wavy;
+}
+div p:nth-child(2) {
+  text-decoration-style: dotted;
+}
+div p:nth-child(3) {
+  text-decoration-style: dashed;
+}
+div p:nth-child(4) {
+  text-decoration-style: double;
+}
