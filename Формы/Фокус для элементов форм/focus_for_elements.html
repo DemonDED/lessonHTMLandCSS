@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="focus_for_elements.css">
+  <title>Фокус для элементов форм</title>
+</head>
+<body>
+  <form action="">
+    <input class="folder task-1" type="text" value="text" list="autocomplete-list">
+    <datalist id="autocomplete-list">
+      <option value="">Москва</option>
+      <option value="">Санкт-Питербург</option>
+      <option value="">Воронеж</option>
+    </datalist>
+    <input class="folder task-1" type="text" value="text" autocomplete="off">
+    <input type="text" value="2" tabindex="2">
+    <input type="text" value="1" tabindex="1" autofocus>
+    <input type="text" value="4" tabindex="4">
+    <input type="text" value="3" tabindex="3">
+    <input type="checkbox" name="test" id="test">
+    <label for="test">dsdsa</label>
+  </form>
+
+  <a href="../../index.html">На главную</a>
+</body>
+</html>

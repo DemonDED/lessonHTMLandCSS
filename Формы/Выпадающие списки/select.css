@@ -1,0 +1,10 @@
+select {
+  width: 300px;
+}
+option[selected], option:focus {
+  color: wheat;
+  background-color: rgb(58, 58, 58);
+}
+option:focus {
+  background-color: aliceblue;
+}
