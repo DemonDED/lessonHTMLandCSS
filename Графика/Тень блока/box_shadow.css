@@ -1,0 +1,45 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.block.shadow {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  border: 1px solid black;
+}
+#num1 div:nth-child(1) {
+  box-shadow: 20px 15px 5px red;
+}
+#num1 div:nth-child(2) {
+  box-shadow: 20px -15px green;
+}
+#num1 div:nth-child(3) {
+  box-shadow: inset 0px 0px 5px black;
+}
+#num1 div:nth-child(4) {
+  box-shadow: inset 4px 3px 3px black;
+}
+#num1 div:nth-child(5) {
+  box-shadow: 0px 10px 3px  black, 0px -10px 3px  black;
+}
+#num1 div:nth-child(6) {
+  box-shadow: 30px 0px red, 0px 30px blue, -30px 0px green, 0px -30px orange;
+}
+#num2 div:nth-child(1) {
+  box-shadow: 15px 20px black;
+}
+#num2 div:nth-child(2) {
+  box-shadow: 15px 20px 10px black;
+}
+#num2 div:nth-child(3) {
+  box-shadow: 15px 20px 10px black, -15px -20px 10px black;
+}
+#num2 div:nth-child(4) {
+  box-shadow: inset 3px 3px 3px black, inset -1px -1px 1px black;
+}
+#num2 div:nth-child(5) {
+  box-shadow: inset 2px 2px 3px red, inset -2px -2px 3px blue;
+}

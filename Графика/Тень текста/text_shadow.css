@@ -1,0 +1,38 @@
+.block {
+  background-color: rgb(119, 110, 110);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#task1 {
+  text-shadow: 10px 5px 3px red;
+}
+#task2 {
+  text-shadow: -10px -5px green;
+}
+#task3 {
+  text-shadow: 15px -10px green;
+}
+#task4 {
+  text-shadow: 0px 0px 2px green ;
+}
+#task5 {
+  color: white;
+  text-shadow: -10px -10px 2px blue,  10px 10px 2px red;
+}
+.second p:nth-child(1) {
+  text-shadow: 2px 2px 2px black;
+}
+.second p:nth-child(2) {
+  text-shadow: 0px 0px 2px black;
+}
+.second p:nth-child(3) {
+  text-shadow: 0px 0px 2px red;
+}
+.second p:nth-child(4) {
+  text-shadow: -10px -10px 2px red, 10px 10px 2px blue;
+}
+.second p:nth-child(5) {
+  text-shadow: 12px 12px 1px red, 22px 22px 1px blue;
+}
