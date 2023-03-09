@@ -1,0 +1,33 @@
+ul {
+  font-size: 10px;
+}
+li {
+  font-size: 2em; /* 20px */
+}
+ul {
+	font-size: 20px;
+}
+li {
+	font-size: 1.5em; /* 30px */
+}
+ul {
+	font-size: 30px;
+}
+li {
+	font-size: 0.5em; /* 15px */
+}
+section {
+	font-size: 10px;
+}
+div {
+	font-size: 2em; /* 20px */
+}
+section {
+	font-size: 10px;
+}
+div {
+	font-size: 2em; /* 20px */
+}
+p {
+	font-size: 1.5em; /* 30px относительно div */
+}

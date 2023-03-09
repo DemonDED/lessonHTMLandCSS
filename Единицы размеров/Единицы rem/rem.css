@@ -1,0 +1,19 @@
+main {
+	margin: 4em auto 2em;
+}
+
+h1 {
+	font-size: 2em;
+}
+section {
+	font-size: 1em;
+	margin-bottom: 2em;
+}
+h2 {
+	font-size: 1.5em;
+	margin-bottom: 2em;
+}
+p {
+	font-size: 1.25em;
+	margin-bottom: 1.1em;
+}
