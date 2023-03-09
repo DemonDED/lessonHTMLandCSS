@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+div {
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  transition: transform 1s ease 0s;
+}
+.task1:hover {
+  transform: rotate(45deg);
+}
+.task2:hover {
+  transform: scaleX(2);
+}
+.task3:hover {
+  transform: scale(2);
+}
+.task4:hover {
+  transform: skewX(45deg);
+}
+.task5:hover {
+  transform: translate(40px);
+}
+.task6:hover {
+  transform: translate(-20px, -20px);
+}
