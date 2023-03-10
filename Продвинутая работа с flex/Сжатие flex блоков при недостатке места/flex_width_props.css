@@ -1,0 +1,42 @@
+#wrapper, main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+main {
+  height: 80vh;
+}
+main > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid red;
+  animation: wh 4s linear infinite alternate;
+}
+.child {
+  border: 1px solid green;
+  width: 100px;
+  height: 100px;
+}
+#task1 {
+  width: 400px;
+}
+#task2 {
+  width: 100%;
+}
+.task3:nth-child(2n) {
+  width: 140px;
+}
+.task4:nth-child(2) {
+  flex-grow: 1;
+}
+@keyframes wh {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 20%;
+  }
+}

@@ -1,0 +1,40 @@
+html, body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+header, footer {
+  height: 20%;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
+}
+h1 {
+	font-size: 1.5rem; /* соответствует 24px */
+}
+p {
+	font-size: 1rem; /* соответствует 16px */
+	margin: 2rem;    /* соответствует 32px */
+}
+@media (max-width: 600px) {
+	html {
+		font-size: 16px;
+	}
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+	html {
+		font-size: 18px;
+	}
+}
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}

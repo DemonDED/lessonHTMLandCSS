@@ -1,0 +1,25 @@
+body, .task1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.task1 {
+  height: 50vh;
+}
+.task2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+}
+.task1 > div, .task2 > div {
+  border: 1px solid red;
+  flex-basis: 7rem;
+  width: 7rem;
+  height: 7rem;
+}
+footer {
+  padding: 10rem;
+}
